@@ -15,6 +15,10 @@
 		82082F182AF6ED9C00858F54 /* Rocket_iOS17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82082F172AF6ED9C00858F54 /* Rocket_iOS17Tests.swift */; };
 		82082F222AF6ED9C00858F54 /* Rocket_iOS17UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82082F212AF6ED9C00858F54 /* Rocket_iOS17UITests.swift */; };
 		82082F242AF6ED9C00858F54 /* Rocket_iOS17UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82082F232AF6ED9C00858F54 /* Rocket_iOS17UITestsLaunchTests.swift */; };
+		82082F332AF6EEF200858F54 /* ScrollExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82082F322AF6EEF200858F54 /* ScrollExpense.swift */; };
+		82082F352AF6EF1900858F54 /* ComplexScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82082F342AF6EF1900858F54 /* ComplexScrollView.swift */; };
+		8254F4FC2AF6F8C200EDB3EA /* ScrollCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8254F4FB2AF6F8C200EDB3EA /* ScrollCard.swift */; };
+		8294E6922AF8399300B0F5A9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 8294E6912AF8399300B0F5A9 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		82082F1D2AF6ED9C00858F54 /* Rocket-iOS17UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket-iOS17UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82082F212AF6ED9C00858F54 /* Rocket_iOS17UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_iOS17UITests.swift; sourceTree = "<group>"; };
 		82082F232AF6ED9C00858F54 /* Rocket_iOS17UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_iOS17UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82082F322AF6EEF200858F54 /* ScrollExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollExpense.swift; sourceTree = "<group>"; };
+		82082F342AF6EF1900858F54 /* ComplexScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexScrollView.swift; sourceTree = "<group>"; };
+		8254F4FB2AF6F8C200EDB3EA /* ScrollCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollCard.swift; sourceTree = "<group>"; };
+		8294E6912AF8399300B0F5A9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,7 @@
 		82082EF82AF6ED9700858F54 = {
 			isa = PBXGroup;
 			children = (
+				8294E6912AF8399300B0F5A9 /* .gitignore */,
 				82082F032AF6ED9700858F54 /* Rocket-iOS17 */,
 				82082F162AF6ED9C00858F54 /* Rocket-iOS17Tests */,
 				82082F202AF6ED9C00858F54 /* Rocket-iOS17UITests */,
@@ -96,6 +105,8 @@
 		82082F032AF6ED9700858F54 /* Rocket-iOS17 */ = {
 			isa = PBXGroup;
 			children = (
+				82149B252AF78A4D00892D59 /* SupportingFIles */,
+				82082F302AF6EED100858F54 /* Challenges */,
 				82082F042AF6ED9700858F54 /* Rocket_iOS17App.swift */,
 				82082F062AF6ED9700858F54 /* ContentView.swift */,
 				82082F082AF6ED9700858F54 /* Item.swift */,
@@ -128,6 +139,31 @@
 				82082F232AF6ED9C00858F54 /* Rocket_iOS17UITestsLaunchTests.swift */,
 			);
 			path = "Rocket-iOS17UITests";
+			sourceTree = "<group>";
+		};
+		82082F302AF6EED100858F54 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				82082F312AF6EEE300858F54 /* ComplexScroll */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		82082F312AF6EEE300858F54 /* ComplexScroll */ = {
+			isa = PBXGroup;
+			children = (
+				82082F322AF6EEF200858F54 /* ScrollExpense.swift */,
+				82082F342AF6EF1900858F54 /* ComplexScrollView.swift */,
+				8254F4FB2AF6F8C200EDB3EA /* ScrollCard.swift */,
+			);
+			path = ComplexScroll;
+			sourceTree = "<group>";
+		};
+		82149B252AF78A4D00892D59 /* SupportingFIles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFIles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82082F0E2AF6ED9B00858F54 /* Preview Assets.xcassets in Resources */,
+				8294E6922AF8399300B0F5A9 /* .gitignore in Resources */,
 				82082F0B2AF6ED9B00858F54 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82082F352AF6EF1900858F54 /* ComplexScrollView.swift in Sources */,
+				82082F332AF6EEF200858F54 /* ScrollExpense.swift in Sources */,
 				82082F072AF6ED9700858F54 /* ContentView.swift in Sources */,
 				82082F092AF6ED9700858F54 /* Item.swift in Sources */,
+				8254F4FC2AF6F8C200EDB3EA /* ScrollCard.swift in Sources */,
 				82082F052AF6ED9700858F54 /* Rocket_iOS17App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
