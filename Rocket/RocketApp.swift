@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct Rocket_iOS17App: App {
+struct RocketApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
