@@ -281,3 +281,4 @@ xcuserdata
 
 # End of https://www.toptal.com/developers/gitignore/api/swift,cocoapods,swiftpackagemanager,fastlane,jetbrains+iml,jetbrains+all,xcode
 
+.vscode/settings.json
